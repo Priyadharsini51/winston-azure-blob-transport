@@ -1,5 +1,5 @@
 {
-  "name": "winston-azure-blob-transport",
+  "name": "winston-azure-blob-transport-dynamiclogs",
   "version": "0.2.11",
   "description": "Winston Azure blob transport",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Parsimotion/winston-azure-blob-transport.git"
+    "url": "git+https://github.com/Priyadharsini51/winston-azure-blob-transport"
   },
   "dependencies": {
     "async": "^2.0.1",
@@ -39,11 +39,5 @@
   },
   "peerDependencies": {
     "winston": "2.x"
-  },
-  "author": "Parsimotion",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Parsimotion/winston-azure-blob-transport/issues"
-  },
-  "homepage": "https://github.com/Parsimotion/winston-azure-blob-transport#readme"
+  }
 }
