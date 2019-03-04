@@ -15,20 +15,20 @@ module.exports = (grunt) ->
   #-----
   #Tasks
   #-----
-  grunt.registerTask "default", "build"
-  grunt.registerTask "build", ["clean:build", "exec:compile", "clean:specs"]
+  # grunt.registerTask "default", "build"
+  # grunt.registerTask "build", ["clean:build", "exec:compile", "clean:specs"]
 
   #------
   #Config
   #------
   grunt.initConfig
     #Clean build directory
-    clean:
-      build: src: "lib"
-      specs: src: "lib/*.spec.js"
+    # clean:
+    #   build: src: "lib"
+    #   specs: src: "lib/*.spec.js"
 
     #Compile coffee
-    exec: compile: cmd: "coffee --compile --transpile --output lib/ src/"
+    # exec: compile: cmd: "coffee --compile --transpile --output lib/ src/"
 
     # Run tests
     mochaTest:
