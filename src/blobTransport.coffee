@@ -20,7 +20,7 @@ class BlobTransport extends Transport
     @name = "BlobTransport"
     @cargo = @_buildCargo()
     @client = @_buildClient @account
-    @nameResolver ?= { getBlobName: => @blobName }
+    @nameResolver ?= { getBlobName: => @blobName() }
 
   initialize: ->
     connectionString = "DefaultEndpointsProtocol=https;AccountName=#{@account.name};AccountKey=#{@account.key}"
