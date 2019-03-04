@@ -1,5 +1,5 @@
 {
-  "name": "winston-azure-blob-transport-dynamiclogs",
+  "name": "winston-azure-blob-customlogs",
   "version": "0.2.11",
   "description": "Winston Azure blob transport",
   "main": "index.js",
